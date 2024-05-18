@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;padding: 0;
+}
+table {
+  border-collapse: collapse;
+  margin: 80px auto 50px;
+  font-weight: bold;
+  width: 300px;
+}
+td {
+}
+td:nth-child(odd) {
+  padding: 15px;
+  color: #3E3E3E;
+}
+td:nth-child(even) {
+  padding: 15px;
+  color: #324293;
+}
+th {
+  padding: 10px;
+
+}
+input {
+  position: absolute;
+  top: 45px;
+  left: 20%;
+  padding: 5px;
+  border-radius: 5px;
+  border: 1px solid;
+}
